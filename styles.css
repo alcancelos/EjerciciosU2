@@ -1,5 +1,4 @@
 body{
-    /* Alineo el contenedor al centro */
     text-align: center;
 }
 
@@ -11,7 +10,7 @@ body{
     /* Color de fondo blanco */
     background-color: white;
     /* El contenedor toma la altura de los items */
-    display: inline-flex;
+    display: flex;
     /* Alineo los items a la derecha */
     align-items: flex-end;
     /* No permito el desborde del contenedor */
@@ -22,70 +21,106 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     border: black 5px solid;  
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 8px;
 }
 
 /* EJERCICIO 2 */
 /* *********** */
 .contenedor2{
-    /* Ancho y alto del contenedor */
-    width: 750px;
-    height: 750px;
+    /* alto del contenedor */
+    height: 600px; 
     background-color: white;
+    /*el contenedor toma el ancho de las cajas*/
     display: inline-flex;
-    /* Alineacion del eje horizontal */
-    justify-content: center;
     /* Alineacion del eje vertical */
     align-items: center;
+    /* No permito el desborde del contenedor */
     flex-wrap: nowrap;
     /* Muestro los items en reversa */
     flex-direction:row-reverse;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     border: black 5px solid;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 8px;
 }
 
 /* EJERCICIO 3 */
 /* *********** */
 .contenedor3{
-    /* En este caso le doy un ancho de porcentaje para que se aprecie mejor */
+    /*Le doy un ancho del 100% para que se adapte a la pantalla*/
     width: 100%;
-    /* Le doy el alto justo del tamao de un Item */
-    height: 250px;
-    background-color: white;
-    display: inline-flex;
+    /*Un ancho minimo para que se siga viendo el ejemplo y no se me
+    desarme todo cuando achico la ventana*/
+    min-width: 900px;
+    background-color: white;   
+    display: flex;
     /* Alineacion del eje horizontal */
     justify-content: space-between;
-    flex-wrap: wrap;
     flex-direction:row;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     border: black 5px solid;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 8px;
 }
 
 /* Estilos de las cajas */
 .caja1{
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 background-color: rgb(255, 0, 0);
 padding: 5px;
 box-sizing: border-box;
 color: white;
+/*Para que el numero de la caja quede en el medio*/
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .caja2{
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 background-color: rgb(0, 35, 148);
 padding: 5px;
 box-sizing: border-box;
 color: white;
+/*Para que el numero de la caja quede en el medio*/
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .caja3{
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 background-color: rgb(3, 150, 11);
 padding: 5px;
 box-sizing: border-box;
 color: white;
+/*Para que el numero de la caja quede en el medio*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav a{
+color: white;
+background-color: blue;
+padding: 1px;
+border: solid black 5px;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-sizing: border-box;
+margin: 0 auto;
+margin-bottom: 45px;
+}
+
+a:hover{
+    background-color: rgb(7, 7, 7);
 }
