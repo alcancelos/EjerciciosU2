@@ -109,6 +109,8 @@ justify-content: center;
 align-items: center;
 }
 
+/*Barra de navegacion*/
+/*********************/
 nav a{
 color: white;
 background-color: blue;
@@ -121,6 +123,10 @@ font-size: 12px;
 box-sizing: border-box;
 margin: 0 auto;
 margin-bottom: 45px;
+/* Sombra de los botones */
+box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 27px 0px rgba(0,0,0,0.75);
 }
 
 a:hover{
