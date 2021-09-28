@@ -113,9 +113,11 @@ nav a{
 color: white;
 background-color: blue;
 padding: 1px;
-border: solid black 5px;
+border: solid black 2px;
+border-radius: 5px;
 text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
 box-sizing: border-box;
 margin: 0 auto;
 margin-bottom: 45px;
